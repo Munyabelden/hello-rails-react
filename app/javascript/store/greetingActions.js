@@ -1,17 +1,18 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-export const fetchGreeting = () => async (dispatch) => {
-  dispatch(fetchGreetingStart());
-
-  try {
-    const response = await axios.get("/api/v1/greetings");
-    const greeting = response.data.greeting;
-    dispatch(fetchGreetingSuccess(greeting));
-  } catch (error) {
-    dispatch(fetchGreetingFailure(error.message));
+export const fetchGreeting = createAsyncThunk(
+  'greetings/fetchGreeting',
+  async (_, { dispatch, rejectWithValue }) => {
+    try {
+      const response = await axios.get('/api/v1/greetings');
+      const greeting = response.data.greeting;
+      return greeting;
+    } catch (error) {
+      return rejectWithValue(error.message);
+    }
   }
-};
+);
 
 const greetingSlice = createSlice({
   name: "greeting",

@@ -1,9 +1,8 @@
 greetings = [
   "Hello!",
-  "Hi there!",
+  "Hi!",
   "Greetings!",
-  "Welcome!",
-  "Salutations!"
+  "Good day!"
 ]
   
 greetings.each do |greeting|

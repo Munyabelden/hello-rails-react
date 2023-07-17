@@ -5,7 +5,6 @@ class Api::V1::GreetingsController < ApplicationController
 
     sleep 1
 
-    render json: { greeting: greeting }
+    render json: { greeting: }
   end
 end
-  
