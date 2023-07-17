@@ -75,7 +75,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd hello-rails-react
-  git clone https://github.com/HERMON-1995/hello-rails-react.git
+  git clone https://github.com/Munyabelden/hello-rails-react.git
 ```
 
 ### Install
@@ -87,7 +87,7 @@ Install this project with:
   bundle install
 ```
 ```sh
-  gem install --no-document rubocop -v '>= 1.0, < 2.0' # https://docs.rubocop.org/en/stable/installation/
+  gem install --no-document rubocop -v '>= 1.0, < 2.0' 
 ```
 ```sh
   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
@@ -125,11 +125,11 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
- *[HERMON GEBRE]*
- 
-- GitHub: [@githubhandle](https://github.com/HERMON-1995)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hermon-gebre/)
+👤 **Belden Mugauri**
+
+- GitHub: [@githubhandle](https://github.com/Munyabelden/)
+- Twitter: [@twitterhandle](https://twitter.com/munyaradzi045)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/munyaradzi-mugauri-828a7b24a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +147,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/HERMON-1995/hello-rails-react/issues).
+Feel free to check the [issues page](https://github.com/Munyabelden/hello-rails-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
